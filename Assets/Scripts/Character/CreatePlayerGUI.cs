@@ -33,7 +33,6 @@ public class CreatePlayerGUI : MonoBehaviour {
 		GUI.skin = mySkin;
 		displayFunctions.DisplayMainItems();
 		displayFunctions.DisplayClassesOptions();
-		displayFunctions.DisplayStatAlloc(capitalLabel, descriptionLabel);
 		displayFunctions.DisplayFinalSetup ();
 	}
 }
